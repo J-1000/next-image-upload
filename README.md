@@ -4,9 +4,9 @@ Sign up on [Cloudinary](https://cloudinary.com/)
 
 Go to the dashboard you need the `cloudname`
 
-Then go to settings and add a new preset. You need to name and you need to set it to `unsigned`
+Then go to settings -> upload and add a new upload preset. You need to copy the name and you need to set it to `unsigned`.
 
-Everything happens in index.js
+Everything happens in index.js in this example
 
 Add your preset name and cloudname here 
 
