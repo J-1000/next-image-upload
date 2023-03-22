@@ -20,6 +20,24 @@ export default function Home() {
     }
 
     reader.readAsDataURL(changeEvent.target.files[0]);
+    
+    
+    // for multiple files
+    
+    /*
+    for (const file of e.target.files) {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => {
+        setImageSrc((imgs) => [...imgs, reader.result]);
+      };
+      reader.onerror = () => {
+        console.log(reader.error);
+      };
+    }
+    */
+    
+    
   }
 
   /**
